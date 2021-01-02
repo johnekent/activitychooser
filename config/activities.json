@@ -1,0 +1,7 @@
+{
+    "comment": "These are the configs for a file when deployed to server.  Initially embedding in code.",
+    "categories": ["art", "school", "music"],
+    "art": ["drawing", "paper airplanes", "sidewalk chalk"],
+    "school": ["review homework", "read chapter", "make practice test"],
+    "music": ["listen to top 10", "play guitar", "play piano", "make song on ipad"]
+}

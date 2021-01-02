@@ -1,0 +1,39 @@
+body {
+    height: 95vh;
+}
+
+footer {
+    height: 5vh;
+}
+
+.wrapper {
+    display: grid;
+    grid-template: 30% 1fr 20% / 1fr 75%;
+    height: 100%;
+}
+
+#activity-input-selection-pane {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    background-color: #d6d6d6;
+}
+
+#activity-output-selection-pane {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background-color: #e1e1e1;
+}
+
+#activity-history {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-color: #f2f2f2;
+}
+
+form ul {
+    list-style:none;
+}
+
+.selected-activity {
+    border: 1px solid #e6a4c5;
+}
